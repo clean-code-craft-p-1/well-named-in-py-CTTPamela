@@ -17,5 +17,5 @@ def test_pair_to_number(major_color, minor_color, expected_pair_number):
 def test_reference_manual_length():
     manual = generate_reference_manual()
     lines = manual.split('\n')
-    # 5行标题 + 颜色组合数 (5*5=25) + 最后的空行
+    # Subject in line 5 + Color combination (5*5=25) + Last empty line
     #assert len(lines) == 5 + len(MAJOR_COLORS)*len(MINOR_COLORS) + 1
